@@ -1,0 +1,11 @@
+[alias]
+  hello_buck_java = //:hello-buck-java
+
+[java]
+  src_roots = /
+  source_level = 8
+  target_level = 8
+
+[tools]
+  javac_jar = error_prone_ant-2.3.2-SNAPSHOT.jar
+  compiler_class_name = com.google.errorprone.ErrorProneJavaCompiler
